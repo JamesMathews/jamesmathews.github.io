@@ -223,7 +223,7 @@ background:#fff url('../image/loader2.gif') no-repeat center center;
   top: 0;
   position: fixed;
   background:#605f5e;
-  background: url('../image/image-back.jpg') center center no-repeat; 
+  background: url('../image/image-back.JPG') center center no-repeat; 
   background-size: cover;
   z-index: -107;
 }
