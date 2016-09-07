@@ -1,64 +1,286 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+
 <html>
-<head>
-<title>Simple HTML Photo Gallery with JavaScript</title>
+    <head>
+        <title>James Mathews</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+         <!-- CSS Files comes here -->
+        <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+         <link href="css/font-awesome.min.css" rel="stylesheet">
+         <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+         
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" media="screen">
+                
+         
+    </head>
+    <body class="blue">
+        <div class="preloader">            
+        </div>
+        <!--Background -->
+	<!-- image is set in the CSS as a background image -->
+	<div class="backgroundcover"></div>
+	<!-- End  Background -->
+	
+	<!-- Start Header -->
+	<header class="header" id="home" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <!-- Your Logo -->
+              <a href="../" class="navbar-brand"><img src="image/logo1.png" alt="SAVO"/></a>
+	    </div>
+	    <!-- Start Navigation -->
+	    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	      <ul class="nav navbar-nav menu">
+	        <li>
+	          <a href="#main"><font color="white"> Home </font></a>
+	        </li>
+	        <li>
+	          <a href="#papers"><font color="white">Papers </font></a>
+	        </li>
+			<li>
+	          <a href="#talks"><font color="white">Talks </font></a>
+	        </li>
+			<li>
+	          <a href="#academic"><font color="white">Academic </font></a>
+	        </li>
+			<li>
+	          <a href="JMCV.pdf"><font color="white">CV </font></a>
+	        </li>
+	        <li>
+	         <a href="index2.html"><font color="white">GreenSwirl </font></a>
+	        </li>
+	        <li>
+	         <a href="index3.html"><font color="white">Interests </font></a>
+	        </li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right header-button">
+	        <li>
+			  <button type="button" class="btn btn-primary"> <a href="mailto:jrm214@cam.ac.uk"> <font color="white"> Contact me </font> </a></button>
+	        </li>
+	      </ul>
+	    </nav>
+	  </div>
+	</header>
+	<!-- End Header -->
+	
+	<!-- Start main Section	-->
+	<section id="main"  class="section main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-9">
+					<div class="lp-element">
+						<h1 data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s"><font color="#feaf1e"> James Mathews </font></h1>
+                                                <div class=""  data-scroll-reveal="wait 0.35s, then enter left and move 40px over 1s"><p class="mainp">
+<ul>
+<li>Currently working on the ENOVAL project. </li>
+<li>Recently completed (July 2016) Ph.D at the University of Cambridge. </li>
+<li>Creator of GreenSwirl. </li>
+<li>Volunteered on the Warwick in Africa programme five times (in Ghana, South Africa & Tanzania). </li>
+<li>Completed MMath at the University of Warwick in 2012. </li>
+</ul>
+</p></div>
+						<p  data-scroll-reveal="wait 0.35s, then enter left and move 40px over 1s">
+						<a class="btn btn-primary btn-lg" role="button" data-scroll-reveal="wait 0.25s, then enter left and move 40px over 1s" href="http://www.enoval.eu/">ENOVAL</a>						
+						<a class="btn btn-danger btn-lg" role="button" data-scroll-reveal="wait 0.25s, then enter left and move 40px over 1s" href="#papers">Research</a>
+						<a class="btn btn-success btn-lg" role="button" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s" href="JMCV.pdf">CV</a>
+						<a class="btn btn-info btn-lg" role="button" data-scroll-reveal="wait 0.25s, then enter left and move 40px over 1s" href="index2.html">GreenSwirl</a>
+						<a class="btn btn-primary btn-lg" role="button" data-scroll-reveal="wait 0.25s, then enter top and move 40px over 1s" href="index3.html">Interests</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End Main -->
+	       
+        <!-- Start Product Block -->
+	<section  class="section product">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 sol-sm-12">
+					<div class="text-center">
+						<h2 id="papers" class="my-target" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><strong>Publications</strong> and <strong>Projects</strong></h2>
+						<!--<p class="lead" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">
+						During the course of my Ph.D my research has been on mathematically modelling turbofan aeroengine noise. Some of the documents I have written are below, including my thesis and conference papers. 
+						</p> -->
+						<p style="font-size:16px" class="lead" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">
+						One of the key noisy components in an aircraft is the jet engine, although there are many sources of noise. Building and designing a jet engine costs millions of pounds and furthermore to prove the engine is safe they have to be tested to destruction.
+Engineers and mathematicians are employed to design engines that will not only be quieter but will be more fuel efficient and produce fewer harmful emissions. Reducing aircraft noise will require the development of many new technologies as well as radical designs.<br> <br>
 
-<style type="text/css">
-body {
-	background: #222;
-	color: #eee;
-	margin-top: 20px;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-a {
-	color: #FFF;
-}
-a:hover {
-	color: yellow;
-	text-decoration: underline;
-}
-.thumbnails img {
-	height: 80px;
-	border: 4px solid #555;
-	padding: 1px;
-	margin: 0 10px 10px 0;
-}
+ My research focuses on understanding the noise caused by the rotating fan in a current aircraft engine. I calculate the pressure in a model of a jet engine by solving a differential equation, obtained by rearranging the Euler equations.  
+ The solution of this differential equation can then be combined with real noise measurements to find the components which contribute the highest level of noise. <br> 
+</p>
+					</div>
+				</div>
+                            <div class="gap"></div>
+				<div class="col-md-6 col-sm-12"><img class="img-responsive" src="image/pic1.jpg" alt="" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"/></div>
+				<div class="col-md-6 col-sm-12">
+					<div>
+						<h4 data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><font color="red">Thesis </font></h4>
+						<p data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">Mathematical modelling of noise generation in turbofan aeroengines using Green's functions (July 2016) : <a href="thesis.pdf">Thesis.</a></p>
+						<h4 data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><font color="red">Conference papers </font></h4>
+						<p data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">
+						Asymptotic and numerical Green's function in a lined duct with realistic shear and swirl (AIAA Conference, Lyon, 2016): <a href="AIAALSF1.pdf">AIAA Paper.</a> <br>
+						Noise generation by turbulence interacting with an aerofoil with a serrated leading edge (AIAA Conference, Dallas, 2015): <a href="AIAAJM.pdf">AIAA Paper.</a> <br></p>
+						
+						<h4 data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><font color="red">Other documents </font></h4>
+						
+						<p data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">
+						Second CCA mini-project (supervised by Prof. Nigel Peake, Cambridge): <a href="minitwo.pdf">Report.</a> <br>
+						First CCA mini-project (supervised by Dr. John Etgen, BP): <a href="minione.pdf">Report.</a>  <br>
+						Master's Thesis (supervised by Dr. Bjorn Stinner, Warwick): <a href="v4.pdf">Report.</a>
+</p>
+						<hr />
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="slider" id="slider" >
+        <div class="container" style="height: 200px; ">          
+        </div>
+    </section>
+	
+	     <!-- Start Product Block -->
+	<section class="section product">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 sol-sm-12">
+					<div class="text-center">
+						<h2 id="talks" class="my-target" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><strong>Conference talks</strong> and <strong>Publications</strong></h2>
+									</div>
+				</div>
+                            <div class="gap"></div>
+				<div class="col-md-9 col-sm-12">
+					<div>
+						<h4 data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><font color="red">Major conferences and seminars </font></h4>
+						<p data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">
+<font color="#feaf1e"> 22nd AIAA/CEAS Aeroacoustics conference </font>: "Asymptotic and numerical Green's function in a lined duct with realistic shear and swirl", Lyon, May 2016.  <br>
+<font color="#feaf1e">ISVR seminar (invited) </font>: "Analytical and numerical Green's functions in an aeroengine", Southampton, February 2016.  <br>
+<font color="#feaf1e">Poster for TakeAIM (finalist) </font>: "Mathematically modelling a jet engine", Oxford, November 2015. <a href="http://www.smithinst.co.uk/wp-content/uploads/TakeAIM_winner_James_Mathews.pdf"> Poster </a> <br>
+<font color="#feaf1e">Osborne Reynolds Student Day </font>: "Noise generation by turbulence interacting with an aerofoil with a serrated leading edge", Manchester, July 2015. <br>
+<font color="#feaf1e"> 21st AIAA/CEAS Aeroacoustics conference </font>: "Noise generation by turbulence interacting with an aerofoil with a serrated leading edge", Dallas, June 2015.  <br>
+<font color="#feaf1e">BMC/BAMC Conference </font>: "Noise generation by turbulence interacting with an aerofoil with a serrated leading edge", Cambridge, April 2015. <br>
+<font color="#feaf1e">Poster at SET for Britain 2015 </font>: "Noise generation by Aircraft", House of Commons, March 2015. <a href="setposter.pdf"> Poster </a> <br>
 
-.thumbnails img:hover {
-	border: 4px solid #00ccff;
-	cursor:pointer;
-}
+<h4 data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><font color="red">Other presentations </font></h4>
+						Waves group talk in February 2014, February 2015 and July 2016 (All Cambridge) <br>
+						FETE Conference in July 2015 (Duxford) <br>
+						CCA-MASDOC conference in March 2014 (Cambridge) and April 2015 (Warwick) <br>
+						CAKE talk in April 2014 (Cambridge) <br>
+						DAMTP 2nd Year Talks in April 2014 (Cambridge) <br>
+						CCA Mini project presentations in January 2013 and May 2013 (Both Cambridge) <br>
+						</p>
+						<hr />
+						</div>
+				</div>
+				<div class="col-md-3 col-sm-12">
+				<img class="img-responsive" src="image/rollsroyce.jpg" alt="" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"/>
+				<img class="img-responsive" src="image/geometryduct.jpg" alt="" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"/>
+				<img class="img-responsive" src="image/GreenLSF1LS.jpg" alt="" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"/>
+				<img class="img-responsive" src="image/GreenLSF1HS.jpg" alt="" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"/>
+				
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
 
-.preview img {
-	border: 4px solid #444;
-	padding: 1px;
-	width: 800px;
-}
-</style>
+	<!----------------------------------slider------------------------------------------>
+    <section class="slider" id="slider" >
+        <div class="container" style="height: 200px; ">          
+        </div>
+    </section>
+	
+	      <!-- Start Product Block -->
+	<section  class="section product">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 sol-sm-12" >
+					<div class="text-center">
+						<h2 id="academic" class="my-target" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><strong>Academic Interests</strong></h2>
+						</div>
+				</div>
+                            <div class="gap"></div>
+				<div class="col-md-5 col-sm-12">
+				<img class="img-responsive" src="image/group.jpeg" vspace="25" alt="" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"/></div>
+				<div class="col-md-7 col-sm-12">
+					<div>
+						<p data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">
+                        <ul>
+						<li>Member of the <a href="http://www.damtp.cam.ac.uk/user/waves/"> waves research group</a> (left).  </li>
+						<li>Supervised Methods (IB), Variational Principles (IB), Further Complex Methods (II) at the University of Cambridge </li>
+                        <li>Attended two European Study Groups with Industry (EGSI100, Oxford 2014 and EGSI107, Manchester 2015) and a graduate modelling camp (Oxford 2014). Worked on projects such as</li>   
+						 <ul style="padding-left:30px">
+						   <li> "Flight Efficiency in European Airspace" (Winsland Consulting), EGSI107.  <a href="Movie1.mp4">Video 1. </a> <a href="Movie2.mp4">Video 2. </a> <a href="Movie3.mp4">Video 3.</a> <a href="ESGI107Presentation.pdf">Presentation.</a> 
+						   <li> "Gabor Filter Selection and Computational Processing for Emotion Recognition" (CrowdEmotion), EGSI100. <a href="esgi100gaborfilter.pdf">Joint report.</a> 
+						   	<li>	"Efficient airline boarding strategies on the Airbus A380", OCCAM Graduate Modelling Camp.  <a href="GradCamp.pdf">Joint report.</a>
+						 </ul>
+						
+						<li>STEP Marker and involved in <a href="https://correspondence.maths.org/"> STEP correspondence course.</a> </li>
+						<li>Former industry liaison for <a href="http://siamchaptercambridge.weebly.com/" >SIAM Cambridge Student Chapter. </a></li>
+                        <li>Member of SIAM and IMA.</li>
+                        
+                        </ul>
+                        </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-</head>
-<body>
-
-<div class="gallery" align="center">
-	<h2>Simple Photo Gallery with HTML and JavaScript</h2>
-	<p>Created by <a target="_blank" href="http://html-tuts.com/">HTML-TUTS.com</a>. View full tutorial <a href="http://html-tuts.com/?p=2337" target="_blank">here</a>.</p>
-
-	<br />
-
-	<div class="thumbnails">
-		<img onmouseover="preview.src=img1.src" name="img1" src="images/img1.jpg" alt=""/>
-		<img onmouseover="preview.src=img2.src" name="img2" src="images/img2.jpg" alt=""/>
-		<img onmouseover="preview.src=img3.src" name="img3" src="images/img3.jpg" alt=""/>
-		<img onmouseover="preview.src=img4.src" name="img4" src="images/img4.jpg" alt=""/>
-		<img onmouseover="preview.src=img5.src" name="img5" src="images/img5.jpg" alt=""/>
-	</div><br/>
-
-	<div class="preview" align="center">
-		<img name="preview" src="images/img1.jpg" alt=""/>
-	</div>
-
-</div>
-
-
-</body>
+	
+	 <section class="slider" id="slider" >
+        <div class="container" style="height: 200px; ">          
+        </div>
+    </section>
+	
+    <!----------------------------------/Gallery----------------------------------------->
+        <!--Footer--->
+        <section class="footer" id="footer">
+        <div class="container">
+                   <div id="social_icons">
+                       <ul>
+					   <li><a href="mailto:jrm214@cam.ac.uk" data-scroll-reveal="wait 0.45s, then enter top and move 80px over 1s"><i class="fa fa-envelope"></i></a></li>
+                     <!--     <li><a href="https://www.facebook.com/jamesmathews8" data-scroll-reveal="wait 0.45s, then enter left and move 80px over 1s"><i class="fa fa-facebook"></i></a></li>
+			 <li><a href="https://twitter.com/jamesrmathews" data-scroll-reveal="wait 0.45s, then enter right and move 80px over 1s"><i class="fa fa-twitter"></i></a></li> -->
+			 <li><a href="https://www.linkedin.com/in/jamesrmathews" data-scroll-reveal="wait 0.45s, then enter bottom and move 80px over 1s"><i class="fa fa-linkedin"></i></a></li>
+			            </ul>
+                   </div>  
+	    <p>Copyright &copy; 2016 James Mathews. Based on SAVO CSS <a href="http://www.free-css.com/free-css-templates/page202/savo">template.</a> 
+		Image credits: 
+		<a href="http://i.imgur.com/Rjeg1Xt.jpg"> Image 1</a> 
+		<a href="http://idr.qburst.com/wp-content/uploads/2013/01/Rolls-Royce_700-engine-.jpg"> Image 2</a> 
+		<a href="http://www.damtp.cam.ac.uk/user/waves/graphics/group.jpeg"> Image 3</a>.
+		</p>
+       
+        </div>
+		   </section>
+         <!----------------------------------/Footer----------------------------------->
+        
+        
+        
+        
+    <script src="library/jquery-2.0.3.min.js"></script>
+    <script src="library/jquery.easing.min.js"></script>
+    <script src="library/owl.carousel.min.js"></script>
+     <script src="library/scrollreveal.js"></script>
+     <script src="library/jquery.prettyPhoto.js"></script>
+      <script src="library/jquery.scrollto.min.js"></script>
+     <script src="library/waypoints.min.js"></script>
+     <script src="js/notify.js"></script>
+     <script src="js/function.js"></script>
+        
+    </body>
 </html>
