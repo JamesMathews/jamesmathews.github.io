@@ -400,13 +400,13 @@ img.img-responsive {
 /*-------------------------------------------------Gallery--------------------------------------------------------------*/
 .gallery
 {
-    background:#131312;
-    color:#fff;
+    background:transparent;
+    color:#feaf1e;
     
 }
 .gallery > .container
 {
-    padding:40px 0px;
+    padding:10px 0px;
 }
 
 .gallery img {

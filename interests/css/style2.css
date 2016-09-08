@@ -373,13 +373,13 @@ img.img-responsive {
 /*-------------------------------------------------Gallery--------------------------------------------------------------*/
 .gallery
 {
-    background:#131312;
-    color:#fff;
+    background:transparent;
+    color:#ff0000;
     
 }
 .gallery > .container
 {
-    padding:40px 0px;
+    padding:20px 0px;
 }
 
 .gallery img {
@@ -428,7 +428,7 @@ img.img-responsive {
 
 .slider >.container
 {
-    padding:30px 0px;;
+    padding:0px 0px;;
 }
 .slider
 {
@@ -442,7 +442,7 @@ img.img-responsive {
    }
 
 #owl-gallery {
-    margin-top: 3.4rem;
+    margin-top: 0.4rem;
 }
 
 .item {

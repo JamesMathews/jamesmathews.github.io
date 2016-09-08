@@ -12,9 +12,52 @@
          
     <link href="css/owl.theme.css" rel="stylesheet" media="screen">
     <link href="css/prettyPhoto.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/style3.css" media="screen">
-                
-         
+    <link rel="stylesheet" href="css/style3.css" media="screen">
+	         
+			 
+<style type="text/css">
+.thumbnails img {
+	height: 55px;
+	width: 80px;
+	border: 1px solid #555;
+	padding: 1px;
+	margin: 0 10px 5px 0;
+}
+
+.thumbnails img:hover {
+	border: 1px solid #feaf1e;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 1px solid #444;
+	padding: 1px;
+	width: 500px;
+}
+
+
+.thumbnails1 img {
+	height: 80px;
+	width: 110px;
+	border: 1px solid #555;
+	padding: 1px;
+	margin: 0 10px 5px 0;
+}
+
+.thumbnails1 img:hover {
+	border: 1px solid #feaf1e;
+	cursor:pointer;
+}
+
+.preview1 img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+
+
+</style>
+			 
     </head>
     <body class="blue">
         <div class="preloader">            
@@ -175,7 +218,19 @@
 						</div>
 				</div>
 				<div class="col-md-5 col-sm-12">
-				<img class="img-responsive" src="image/rollsroyce.jpg" alt="" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"/>
+    				<div class="gallery" align="center">
+                		<div class="thumbnails">
+                    		<img onmouseover="preview.src=img1.src" name="img1" src="image/hockey1.jpg" alt=""/>
+                    		<img onmouseover="preview.src=img2.src" name="img2" src="image/hockey2.jpg" alt=""/>
+                    		<img onmouseover="preview.src=img3.src" name="img3" src="image/hockey3.jpg" alt=""/>
+							<img onmouseover="preview.src=img4.src" name="img4" src="image/yachting.jpg" alt=""/>
+							<img onmouseover="preview.src=img5.src" name="img5" src="image/threepeaks.jpg" alt=""/>
+                		</div>
+  						<br/>
+            			<div class="preview" align="center">
+            				 <img name="preview" src="image/hockey1.jpg" alt=""/>
+            			</div>
+					</div>
 				</div>
 				
 			</div>
@@ -184,49 +239,78 @@
 	
 
 	<!----------------------------------slider------------------------------------------>
-    <section class="slider" id="slider" >
+   <section class="slider" id="slider" >
         <div class="container" style="height: 200px; ">          
         </div>
     </section>
 	
-	      <!-- Start Product Block -->
-	<section  class="section product">
+	
+	
+	     <!-- Start Product Block -->
+	  <section  class="section product">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 sol-sm-12" >
 					<div class="text-center">
-						<h2 id="places" class="my-target" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s">Places I have been</h2>
+						<h2 id="places" class="my-target" data-scroll-reveal="wait 0.25s, then enter right and move 40px over 1s"><font color="red">Places I have been </font></h2>
 						</div>
 				</div>
 			</div>
-			<div class="gallery" align="center">
-            	<h2>Simple Photo Gallery with HTML and JavaScript</h2>
-            	<p>Created by <a target="_blank" href="http://html-tuts.com/">HTML-TUTS.com</a>. View full tutorial <a href="http://html-tuts.com/?p=2337" target="_blank">here</a>.</p>
-            
-            	<br />
-            
-            	<div class="thumbnails">
-            		<img onmouseover="preview.src=img1.src" name="img1" src="images/img1.jpg" alt=""/>
-            		<img onmouseover="preview.src=img2.src" name="img2" src="images/img2.jpg" alt=""/>
-            		<img onmouseover="preview.src=img3.src" name="img3" src="images/img3.jpg" alt=""/>
-            		<img onmouseover="preview.src=img4.src" name="img4" src="images/img4.jpg" alt=""/>
-            		<img onmouseover="preview.src=img5.src" name="img5" src="images/img5.jpg" alt=""/>
-            	</div><br/>
-            
-            	<div class="preview" align="center">
-            		<img name="preview" src="images/img1.jpg" alt=""/>
-            	</div>
-            
-            </div>
-		   
-	
-	</section>
+		
+		<div class="gallery" align="center">
+		<p> Ohrid, Macedonia (2016) </p>
+		<div class="thumbnails1">
+		<img onmouseover="previewp1.src=p1img1.src" name="p1img1" src="image/ohrid1.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img2.src" name="p1img2" src="image/ohrid2.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img3.src" name="p1img3" src="image/ohrid3.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img4.src" name="p1img4" src="image/ohrid4.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img5.src" name="p1img5" src="image/ohrid5.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img6.src" name="p1img6" src="image/ohrid6.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img7.src" name="p1img7" src="image/ohrid7.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img8.src" name="p1img8" src="image/ohrid8.jpg" alt=""/>
+		<img onmouseover="previewp1.src=p1img9.src" name="p1img9" src="image/ohrid9.jpg" alt=""/>
+	</div><br/>
 
+	<div class="preview1" align="center">
+		<img name="previewp1" src="image/ohrid1.jpg" alt=""/>
+	</div>
+
+</div>	
+			
+        </div>
 	
-	 <section class="slider" id="slider" >
-        <div class="container" style="height: 200px; ">          
+	</section> 
+
+	<!--   <section class="slider" id="slider" >
+        <div class="container" style="height: 50px; ">          
         </div>
     </section>
+	
+		<section  class="section product">
+		<div class="container">
+			<div class="row">
+			</div>
+		
+		<div class="gallery" align="center">
+		<p> Limpopo, South Africa (2015) </p>
+		<div class="thumbnails1">
+		<img onmouseover="previewp2.src=p2img1.src" name="p2img1" src="image/img5.jpg" alt=""/>
+		<img onmouseover="previewp2.src=p2img2.src" name="p2img2" src="image/img6.jpg" alt=""/>
+		<img onmouseover="previewp2.src=p2img3.src" name="p2img3" src="image/img7.jpg" alt=""/>
+	</div><br/>
+
+	<div class="preview1" align="center">
+		<img name="previewp2" src="images/img5.jpg" alt=""/>
+	</div>
+
+</div>	
+			
+        </div>
+	
+	</section>  -->
+
+
+	
 	
     <!----------------------------------/Gallery----------------------------------------->
         <!--Footer--->
@@ -241,10 +325,10 @@
 			            </ul>
                    </div>  
 	    <p>Copyright &copy; 2016 James Mathews. Based on SAVO CSS <a href="http://www.free-css.com/free-css-templates/page202/savo">template.</a> 
-		Image credits: 
+		<!--Image credits: 
 		<a href="http://i.imgur.com/Rjeg1Xt.jpg"> Image 1</a> 
 		<a href="http://idr.qburst.com/wp-content/uploads/2013/01/Rolls-Royce_700-engine-.jpg"> Image 2</a> 
-		<a href="http://www.damtp.cam.ac.uk/user/waves/graphics/group.jpeg"> Image 3</a>.
+		<a href="http://www.damtp.cam.ac.uk/user/waves/graphics/group.jpeg"> Image 3</a>. -->
 		</p>
        
         </div>
