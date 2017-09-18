@@ -229,7 +229,7 @@ background:#fff url('../image/loader2.gif') no-repeat center center;
   top: 0;
   position: fixed;
   background:#605f5e;
-  background: url('../image/image-back2.JPG') center center repeat; 
+  background: url('../image/image-back2.jpg') center center repeat; 
   background-size: cover;
   z-index: -107;
 }
