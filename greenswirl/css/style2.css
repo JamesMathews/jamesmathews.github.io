@@ -218,12 +218,18 @@ background:#fff url('../image/loader2.gif') no-repeat center center;
 /*--------------------------------------------------Background--------------------------------------------------------------------------------------------------------*/
 
 .backgroundcover {
-  height: 670px;
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
   width: 100%;
+  height: auto;	
+  /*height: 670px;
+  width: 100%; */
   top: 0;
   position: fixed;
   background:#605f5e;
-  background: url('../image/image-back2.jpg') center center no-repeat; 
+  background: url('../image/image-back.JPG') center center repeat; 
   background-size: cover;
   z-index: -107;
 }
